@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    android:background="@color/black"
+    tools:context=".RestartActivity">
+
+
+    <TextView
+        android:id="@+id/highScore"
+        android:textSize="30sp"
+        android:text="@string/high_score"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="30sp"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="@string/tryA"
+        android:backgroundTint="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/exit"
+        android:textSize="26sp" />
+
+
+</LinearLayout>

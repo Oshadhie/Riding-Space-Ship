@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/backgroundss"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/high_score"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="30sp"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textSize="26sp"
+        android:backgroundTint="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="@string/exit"
+        android:textSize="26sp"
+        android:backgroundTint="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"/>
+
+
+
+
+</LinearLayout>
